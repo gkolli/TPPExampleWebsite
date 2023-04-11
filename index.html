@@ -95,7 +95,7 @@
     mapboxgl.accessToken = 'pk.eyJ1IjoiZ2tvbGxpIiwiYSI6ImNsZWlxZTRyMDAzeDE0M3F2OXBtMjd0djQifQ.bnR8kpnVwejj-uQo3d7uIA'; //Mapbox token 
     var map = new mapboxgl.Map({
       container: 'map', // container id
-      style: 'mapbox://styles/mapbox/satellite-streets-v12', // YOUR TURN: choose a style: https://docs.mapbox.com/api/maps/#styles
+      style: 'mapbox://styles/mapbox/streets-v11', // YOUR TURN: choose a style: https://docs.mapbox.com/api/maps/#styles
       center: [-71.08889554638633,42.34018022502402 ], // starting position [lng, lat]
       zoom: 10,// starting zoom 
       transformRequest: transformRequest
@@ -130,7 +130,7 @@
               },
               'paint': {
                 'circle-radius': 8,
-                'circle-color': "yellow"
+                'circle-color': "purple"
               }
             });
 
